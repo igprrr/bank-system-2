@@ -1,4 +1,3 @@
-from banco import Banco, AtualizarContas
 from conta import Conta, ContaCorrente, ContaPoupanca
 
 #dados da c, cc e cp
@@ -13,9 +12,3 @@ cp.atualiza(0.01)
 print('o saldo da conta de Igor é:',c._saldo)
 print('o saldo da conta corrente é:',cc._saldo)
 print('o saldo da conta poupança é:',cp._saldo)
-
-ac = AtualizarContas(0.01)
-
-ac.roda(c)
-ac.roda(cc)
-ac.roda(cp)
